@@ -5,8 +5,8 @@ This project is a **web application** for managing users, built with **React** f
 
 ```mermaid
 graph TD;
-    A[User Interface (React)] -->|Makes API Requests| B[Server (Node.js + TypeScript)];
-    B -->|Handles Requests| C[Database (SQLite)];
+    A[User Interface: React] -->|Makes API Requests| B[Server: Node.js + TypeScript];
+    B -->|Handles Requests| C[Database: SQLite];
     B -->|Business Logic| D[Business Logic Layer];
     D -->|Database Operations| C;
 
